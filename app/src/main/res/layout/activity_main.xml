@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/llmain"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/bg"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/llp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgpx"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="#F6F3F3"
+                android:backgroundTintMode="src_atop"
+                android:foregroundTint="#F1ECEC"
+                android:foregroundTintMode="multiply"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:src="@drawable/imgx"
+                android:tintMode="src_in"
+                app:tint="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/txtp1"
+                android:layout_width="190dp"
+                android:layout_height="100dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/p1"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <GridLayout
+            android:id="@+id/glmain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:background="@color/bg"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/box"
+                android:textColor="@color/btntxt"
+                android:onClick="check"
+                app:cornerRadius="10dp"
+                tools:ignore="SpeakableTextPresentCheck"/>
+
+            <Button
+                android:id="@+id/btn2"
+                android:onClick="check"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="9dp"
+                android:backgroundTint="@color/box"
+                android:textColor="@color/btntxt"
+                app:cornerRadius="10dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:onClick="check"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="9dp"
+                android:backgroundTint="@color/box"
+                android:textColor="@color/btntxt"
+                app:cornerRadius="10dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:onClick="check"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/box"
+                android:textColor="@color/btntxt"
+                app:cornerRadius="10dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:onClick="check"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="9dp"
+                android:backgroundTint="@color/box"
+                android:textColor="@color/btntxt"
+                app:cornerRadius="10dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:onClick="check"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="9dp"
+                android:backgroundTint="@color/box"
+                android:textColor="@color/btntxt"
+                app:cornerRadius="10dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:onClick="check"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/box"
+                android:textColor="@color/btntxt"
+                app:cornerRadius="10dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:onClick="check"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="9dp"
+                android:backgroundTint="@color/box"
+                android:textColor="@color/btntxt"
+                app:cornerRadius="10dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:onClick="check"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="9dp"
+                android:backgroundTint="@color/box"
+                android:textColor="@color/btntxt"
+                app:cornerRadius="10dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+        </GridLayout>
+
+        <LinearLayout
+            android:id="@+id/llp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtp2"
+                android:layout_width="190dp"
+                android:layout_height="100dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="@string/p2"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgpo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="#F6F3F3"
+                android:backgroundTintMode="src_atop"
+                android:foregroundTint="#F1ECEC"
+                android:foregroundTintMode="multiply"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:src="@drawable/imgo"
+                android:tintMode="src_in"
+                app:tint="#FFFFFF" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textColor="@color/btntxt"
+            android:textSize="30sp"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/btnrestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btnreset"
+            android:text="Restart" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
